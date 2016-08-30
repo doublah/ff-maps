@@ -1,0 +1,16 @@
+CONC MAP
+
+Teams:
+Students (blue) | Jugglers (red)
+
+Objectives:
+
+Students - Learn to conc by maneuvering through the 15 jumps. Each jump has been designed to teach you specific skills useful in-game and in other concmaps. You MUST complete each jump using only your concusion grenades! You spawn in the teleporter room, enter the teleporter of your choice and work your way through the level. If you have trouble, the chalkboard at each jump outlines how to complete each jump. IF you finish, your teleported to the finishing room where you can grab the flags (for extra FF points) and either basque in your greatness or move on to the jugglers room!
+
+Jugglers* - Learn to juggle as quickly as possible and try to make it to the top. The higher you go the higher your level, there are 30 levles to the top. 
+
+*The Juggler jump is an exact replica of ff_juggle_this; created by A1win. 
+Textures and lighting have been added / changed, but everything else remains the same!
+Props to A1win for allowing me to use his map!
+
+~ Alex "Dr.Satan" Laswell

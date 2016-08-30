@@ -1,0 +1,17 @@
+GAME MODE: Hunted
+
+Teams: 
+Blue Civilian escorted by Red Bodyguards vs Yellow Assassins
+
+Objectives:
+The civilian must reach the van in the field at the north end of the map.
+
+Scoring: 
+Bodyguard: 10 points per escape
+Assassin: 5 points per assassination
+
+Notes: Assassins spawn with limited ammo. There is one spy, one demoman,
+and one hwguy allowed on the assassin's team.
+
+If a demoman sets a detpack near the gas tank near the VIP spawn, any
+players inside the barn will be killed.

@@ -1,0 +1,13 @@
+--------------------------------BASEX1-----------------------------------
+
+MAP TYPE: Escape.This style map is based on the HalfLife2 type game play.
+
+CLASS: civilian only
+
+OBJECTIVE: As a diplomat you have to try to get out of the secret baseX1.
+Work as a team to by pass the security.And traps.
+
+HOW TO PLAY: Boost your teamates up and over Obstacles.
+Figure out how to get to the next level.
+
+MAP MADE BY:DarkAge maps.

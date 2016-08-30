@@ -1,0 +1,5 @@
+ff_engysunite - allied capture the flag
+
+blue & red VS green & yellow
+when blue (green) caps, their armory opens for supplys
+and the maingate locksdown, until red (yellow) can cap

@@ -1,0 +1,7 @@
+Deathmatch9
+
+Civilians spawn in a specbox
+
+Arena 1-6 for one on one
+Arena 7 is a mini blockfort
+Arena 8 is blockfort

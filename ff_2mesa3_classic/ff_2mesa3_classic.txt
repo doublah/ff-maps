@@ -1,0 +1,6 @@
+Capture The Flag for 10 points. Dropped flags return to their base after 45 seconds.
+
+Grates are Detpackable. Side bridges can be destroyed. All of the Resupply Packs can be used by anyone.
+
+Map by: Squeek (squeek502@hotmail.com)
+TFC Map by: Walter "[CBC]Techniker" Swindell (wrs01@iqmail.net)
