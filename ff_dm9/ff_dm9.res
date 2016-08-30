@@ -1,9 +1,7 @@
-"Resources" 
-{ 
-        
+"resources" 
+{
 	"maps/ff_dm9.txt"  "file"
     "maps/ff_dm9.lua"  "file"
-    "maps/ff_dm9.res"  "file"
 	"materials/ff_dm9/frank_frazetta_arequiemforsharks.vtf" "file"
 	"materials/ff_dm9/frank_frazetta_atlantis.vtf" "file"
 	"materials/ff_dm9/frank_frazetta_beautyandthebeast.vtf" "file"
@@ -68,7 +66,6 @@
 	"materials/ff_dm9/frank_frazetta_thesilverwarrior.vmf" "file"
 	"materials/ff_dm9/frank_frazetta_vampirella1996.vmf" "file"
 	"materials/ff_dm9/frank_frazetta_warriorwithballandchain.vmf" "file"
-	"materials/vgui/loadingscreens/ff_dm9.vmt" "file"
 	"materials/vgui/loadingscreens/ff_dm9.vtf" "file"
-
+	"materials/vgui/loadingscreens/ff_dm9.vmt" "file"
 }
