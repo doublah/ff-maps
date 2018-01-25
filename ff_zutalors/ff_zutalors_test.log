@@ -1,0 +1,1624 @@
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\FortressForever\materials
+Loading c:\ff_zutalors\ff_zutalors_test.vmf
+material "ff_zutalors/q1c2tek" not found
+Material not found!: FF_ZUTALORS/Q1C2TEK
+material "ff_zutalors/hexflat1" not found
+Material not found!: FF_ZUTALORS/HEXFLAT1
+material "ff_zutalors/concrete1" not found
+Material not found!: FF_ZUTALORS/CONCRETE1
+material "ff_zutalors/hexflat2" not found
+Material not found!: FF_ZUTALORS/HEXFLAT2
+material "ff_zutalors/concrete0" not found
+Material not found!: FF_ZUTALORS/CONCRETE0
+material "ff_zutalors/star1" not found
+Material not found!: FF_ZUTALORS/STAR1
+material "ff_zutalors/starb3" not found
+Material not found!: FF_ZUTALORS/STARB3
+material "ff_zutalors/stair1" not found
+Material not found!: FF_ZUTALORS/STAIR1
+material "ff_zutalors/slight1fx" not found
+Material not found!: FF_ZUTALORS/SLIGHT1FX
+material "ff_zutalors/starb2" not found
+Material not found!: FF_ZUTALORS/STARB2
+material "ff_zutalors/compwerd2" not found
+Material not found!: FF_ZUTALORS/COMPWERD2
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (617718 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 485 texinfos to 249
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing c:\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading c:\ff_zutalors\ff_zutalors_test.bsp
+reading c:\ff_zutalors\ff_zutalors_test.prt
+ 584 portalclusters
+1369 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 390 visible clusters (0.00%)
+Total clusters visible: 96697
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 373
+visdatasize:61111  compressed from 93440
+writing c:\ff_zutalors\ff_zutalors_test.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\zombiebyte\sourcesdk\bin\ep1\bin\lights.rad.
+Loading c:\ff_zutalors\ff_zutalors_test.bsp
+2887 faces
+298715 square feet [43015064.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2887 patches before subdivision
+28293 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4112816, max 763
+transfer lists:  31.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27584, 25351, 22129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2955, 2572, 1977)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(386, 329, 226)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(60, 51, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(11, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1894/8192        22728/98304    (23.1%) 
+brushsides           12810/65536      102480/524288   (19.5%) 
+planes                2892/65536       57840/1310720  ( 4.4%) 
+vertexes              5451/65536       65412/786432   ( 8.3%) 
+nodes                 1390/65536       44480/2097152  ( 2.1%) 
+texinfos               249/12288       17928/884736   ( 2.0%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2887/65536      161672/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1988/65536      111328/3670016  ( 3.0%) 
+leaves                1410/65536       45120/2097152  ( 2.2%) 
+leaffaces             3446/65536        6892/131072   ( 5.3%) 
+leafbrushes           3052/65536        6104/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21289/512000      85156/2048000  ( 4.2%) 
+edges                13063/256000      52252/1024000  ( 5.1%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            177/32768        1770/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2706/65536        5412/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1680872/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61111/16777216 ( 0.4%) 
+entdata               [variable]       59881/393216   (15.2%) 
+LDR leaf ambient      1410/65536       33840/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      617718/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3282993 bytes ====
+
+Total triangle count: 7564
+Writing c:\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (618144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 520 texinfos to 264
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 588 portalclusters
+1377 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 416 visible clusters (0.00%)
+Total clusters visible: 97275
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 374
+visdatasize:61370  compressed from 94080
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2976 faces
+299179 square feet [43081876.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2976 patches before subdivision
+38890 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5896659, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41149, 38119, 33471)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4503, 3950, 3068)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(579, 492, 341)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(85, 72, 45)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 12, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0165 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1893/8192        22716/98304    (23.1%) 
+brushsides           12804/65536      102432/524288   (19.5%) 
+planes                2904/65536       58080/1310720  ( 4.4%) 
+vertexes              5587/65536       67044/786432   ( 8.5%) 
+nodes                 1399/65536       44768/2097152  ( 2.1%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2976/65536      166656/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2000/65536      112000/3670016  ( 3.1%) 
+leaves                1419/65536       45408/2097152  ( 2.2%) 
+leaffaces             3600/65536        7200/131072   ( 5.5%) 
+leafbrushes           3054/65536        6108/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21729/512000      86916/2048000  ( 4.2%) 
+edges                13306/256000      53224/1024000  ( 5.2%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2685/65536        5370/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1945756/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61370/16777216 ( 0.4%) 
+entdata               [variable]       60282/393216   (15.3%) 
+LDR leaf ambient      1419/65536       34056/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      618144/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3561385 bytes ====
+
+Total triangle count: 7778
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+6 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (618144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 520 texinfos to 264
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 588 portalclusters
+1377 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 416 visible clusters (0.00%)
+Total clusters visible: 97275
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 374
+visdatasize:61370  compressed from 94080
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2976 faces
+299179 square feet [43081876.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2976 patches before subdivision
+38890 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5896659, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41149, 38119, 33471)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4503, 3950, 3068)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(579, 492, 341)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(85, 72, 45)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 12, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0151 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1893/8192        22716/98304    (23.1%) 
+brushsides           12804/65536      102432/524288   (19.5%) 
+planes                2904/65536       58080/1310720  ( 4.4%) 
+vertexes              5587/65536       67044/786432   ( 8.5%) 
+nodes                 1399/65536       44768/2097152  ( 2.1%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2976/65536      166656/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2000/65536      112000/3670016  ( 3.1%) 
+leaves                1419/65536       45408/2097152  ( 2.2%) 
+leaffaces             3600/65536        7200/131072   ( 5.5%) 
+leafbrushes           3054/65536        6108/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21729/512000      86916/2048000  ( 4.2%) 
+edges                13306/256000      53224/1024000  ( 5.2%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2685/65536        5370/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1945756/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61370/16777216 ( 0.4%) 
+entdata               [variable]       59881/393216   (15.2%) 
+LDR leaf ambient      1419/65536       34056/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      618144/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3560984 bytes ====
+
+Total triangle count: 7778
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+6 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (618144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 520 texinfos to 264
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 588 portalclusters
+1377 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 405 visible clusters (0.00%)
+Total clusters visible: 97264
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 374
+visdatasize:61370  compressed from 94080
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2976 faces
+299179 square feet [43081876.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2976 patches before subdivision
+38890 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5896659, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383547, 357998, 176823)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45817, 41017, 18008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6588, 5810, 2289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1094, 971, 346)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(204, 184, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0152 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1893/8192        22716/98304    (23.1%) 
+brushsides           12804/65536      102432/524288   (19.5%) 
+planes                2904/65536       58080/1310720  ( 4.4%) 
+vertexes              5587/65536       67044/786432   ( 8.5%) 
+nodes                 1399/65536       44768/2097152  ( 2.1%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2976/65536      166656/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2000/65536      112000/3670016  ( 3.1%) 
+leaves                1419/65536       45408/2097152  ( 2.2%) 
+leaffaces             3600/65536        7200/131072   ( 5.5%) 
+leafbrushes           3054/65536        6108/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21729/512000      86916/2048000  ( 4.2%) 
+edges                13306/256000      53224/1024000  ( 5.2%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2685/65536        5370/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1945756/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61370/16777216 ( 0.4%) 
+entdata               [variable]       59284/393216   (15.1%) 
+LDR leaf ambient      1419/65536       34056/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      618144/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3560387 bytes ====
+
+Total triangle count: 7778
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (618144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 520 texinfos to 267
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 588 portalclusters
+1377 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 412 visible clusters (0.00%)
+Total clusters visible: 97271
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 374
+visdatasize:61370  compressed from 94080
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2981 faces
+299215 square feet [43086996.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2981 patches before subdivision
+38909 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5896659, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383547, 357998, 176823)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45817, 41017, 18008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6588, 5810, 2289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1094, 971, 346)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(204, 184, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0151 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1893/8192        22716/98304    (23.1%) 
+brushsides           12804/65536      102432/524288   (19.5%) 
+planes                2904/65536       58080/1310720  ( 4.4%) 
+vertexes              5587/65536       67044/786432   ( 8.5%) 
+nodes                 1399/65536       44768/2097152  ( 2.1%) 
+texinfos               267/12288       19224/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2981/65536      166936/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2005/65536      112280/3670016  ( 3.1%) 
+leaves                1419/65536       45408/2097152  ( 2.2%) 
+leaffaces             3605/65536        7210/131072   ( 5.5%) 
+leafbrushes           3054/65536        6108/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21769/512000      87076/2048000  ( 4.3%) 
+edges                13322/256000      53288/1024000  ( 5.2%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2685/65536        5370/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1946112/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61370/16777216 ( 0.4%) 
+entdata               [variable]       59285/393216   (15.1%) 
+LDR leaf ambient      1419/65536       34056/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      618144/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3561754 bytes ====
+
+Total triangle count: 7788
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+11 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (618408 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 524 texinfos to 268
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 590 portalclusters
+1389 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 406 visible clusters (0.00%)
+Total clusters visible: 97581
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 374
+visdatasize:61854  compressed from 94400
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2982 faces
+299243 square feet [43091092.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2982 patches before subdivision
+38896 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5901080, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383601, 358047, 176847)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45819, 41019, 18009)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6588, 5810, 2289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1094, 971, 345)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(204, 184, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0139 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1894/8192        22728/98304    (23.1%) 
+brushsides           12810/65536      102480/524288   (19.5%) 
+planes                2906/65536       58120/1310720  ( 4.4%) 
+vertexes              5591/65536       67092/786432   ( 8.5%) 
+nodes                 1401/65536       44832/2097152  ( 2.1%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2982/65536      166992/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2005/65536      112280/3670016  ( 3.1%) 
+leaves                1421/65536       45472/2097152  ( 2.2%) 
+leaffaces             3603/65536        7206/131072   ( 5.5%) 
+leafbrushes           3055/65536        6110/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21773/512000      87092/2048000  ( 4.3%) 
+edges                13329/256000      53316/1024000  ( 5.2%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2685/65536        5370/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1945756/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61854/16777216 ( 0.4%) 
+entdata               [variable]       59285/393216   (15.1%) 
+LDR leaf ambient      1421/65536       34104/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      618408/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3562640 bytes ====
+
+Total triangle count: 7790
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (1)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (618144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 520 texinfos to 267
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 588 portalclusters
+1377 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 412 visible clusters (0.00%)
+Total clusters visible: 97271
+Average clusters visible: 165
+Building PAS...
+Average clusters audible: 374
+visdatasize:61370  compressed from 94080
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2981 faces
+299215 square feet [43086996.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2981 patches before subdivision
+38909 patches after subdivision
+196 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5896659, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383547, 357998, 176823)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45817, 41017, 18008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6588, 5810, 2289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1094, 971, 346)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(204, 184, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0146 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1893/8192        22716/98304    (23.1%) 
+brushsides           12804/65536      102432/524288   (19.5%) 
+planes                2904/65536       58080/1310720  ( 4.4%) 
+vertexes              5587/65536       67044/786432   ( 8.5%) 
+nodes                 1399/65536       44768/2097152  ( 2.1%) 
+texinfos               267/12288       19224/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2981/65536      166936/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2005/65536      112280/3670016  ( 3.1%) 
+leaves                1419/65536       45408/2097152  ( 2.2%) 
+leaffaces             3605/65536        7210/131072   ( 5.5%) 
+leafbrushes           3054/65536        6108/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21769/512000      87076/2048000  ( 4.3%) 
+edges                13322/256000      53288/1024000  ( 5.2%) 
+LDR worldlights        196/8192        17248/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2685/65536        5370/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1946112/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61370/16777216 ( 0.4%) 
+entdata               [variable]       59285/393216   (15.1%) 
+LDR leaf ambient      1419/65536       34056/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      618144/4194304  (14.7%) 
+==== Total Win32 BSP file data space used: 3561754 bytes ====
+
+Total triangle count: 7788
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (619512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 525 texinfos to 268
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 578 portalclusters
+1351 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 390 visible clusters (0.00%)
+Total clusters visible: 96287
+Average clusters visible: 166
+Building PAS...
+Average clusters audible: 374
+visdatasize:60256  compressed from 92480
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2961 faces
+299777 square feet [43167960.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2961 patches before subdivision
+38903 patches after subdivision
+198 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5870348, max 767
+transfer lists:  44.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383800, 358029, 176549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45636, 40824, 17882)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6541, 5765, 2266)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1086, 964, 342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(203, 183, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1905/8192        22860/98304    (23.3%) 
+brushsides           12877/65536      103016/524288   (19.6%) 
+planes                2920/65536       58400/1310720  ( 4.5%) 
+vertexes              5577/65536       66924/786432   ( 8.5%) 
+nodes                 1388/65536       44416/2097152  ( 2.1%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2961/65536      165816/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1991/65536      111496/3670016  ( 3.0%) 
+leaves                1408/65536       45056/2097152  ( 2.1%) 
+leaffaces             3583/65536        7166/131072   ( 5.5%) 
+leafbrushes           3093/65536        6186/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21639/512000      86556/2048000  ( 4.2%) 
+edges                13264/256000      53056/1024000  ( 5.2%) 
+LDR worldlights        198/8192        17424/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2718/65536        5436/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1946504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60256/16777216 ( 0.4%) 
+entdata               [variable]       60209/393216   (15.3%) 
+LDR leaf ambient      1408/65536       33792/1572864  ( 2.1%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      619512/4194304  (14.8%) 
+==== Total Win32 BSP file data space used: 3561006 bytes ====
+
+Total triangle count: 7753
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (619512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 525 texinfos to 268
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 578 portalclusters
+1351 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 405 visible clusters (0.00%)
+Total clusters visible: 96302
+Average clusters visible: 166
+Building PAS...
+Average clusters audible: 374
+visdatasize:60256  compressed from 92480
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2961 faces
+299777 square feet [43167960.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2961 patches before subdivision
+38903 patches after subdivision
+198 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5870348, max 767
+transfer lists:  44.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383800, 358029, 176549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45636, 40824, 17882)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6541, 5765, 2266)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1086, 964, 342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(203, 183, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0154 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1905/8192        22860/98304    (23.3%) 
+brushsides           12877/65536      103016/524288   (19.6%) 
+planes                2920/65536       58400/1310720  ( 4.5%) 
+vertexes              5577/65536       66924/786432   ( 8.5%) 
+nodes                 1388/65536       44416/2097152  ( 2.1%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2961/65536      165816/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1991/65536      111496/3670016  ( 3.0%) 
+leaves                1408/65536       45056/2097152  ( 2.1%) 
+leaffaces             3583/65536        7166/131072   ( 5.5%) 
+leafbrushes           3093/65536        6186/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21639/512000      86556/2048000  ( 4.2%) 
+edges                13264/256000      53056/1024000  ( 5.2%) 
+LDR worldlights        198/8192        17424/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2718/65536        5436/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1946504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60256/16777216 ( 0.4%) 
+entdata               [variable]       60210/393216   (15.3%) 
+LDR leaf ambient      1408/65536       33792/1572864  ( 2.1%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      619512/4194304  (14.8%) 
+==== Total Win32 BSP file data space used: 3561007 bytes ====
+
+Total triangle count: 7753
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (1)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (619512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 525 texinfos to 268
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 578 portalclusters
+1351 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 402 visible clusters (0.00%)
+Total clusters visible: 96299
+Average clusters visible: 166
+Building PAS...
+Average clusters audible: 374
+visdatasize:60256  compressed from 92480
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2961 faces
+299777 square feet [43167960.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2961 patches before subdivision
+38903 patches after subdivision
+198 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5870348, max 767
+transfer lists:  44.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383799, 358029, 176549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(45636, 40824, 17882)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6541, 5765, 2266)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1086, 964, 342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(203, 183, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1905/8192        22860/98304    (23.3%) 
+brushsides           12877/65536      103016/524288   (19.6%) 
+planes                2920/65536       58400/1310720  ( 4.5%) 
+vertexes              5577/65536       66924/786432   ( 8.5%) 
+nodes                 1388/65536       44416/2097152  ( 2.1%) 
+texinfos               268/12288       19296/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2961/65536      165816/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1991/65536      111496/3670016  ( 3.0%) 
+leaves                1408/65536       45056/2097152  ( 2.1%) 
+leaffaces             3583/65536        7166/131072   ( 5.5%) 
+leafbrushes           3093/65536        6186/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21639/512000      86556/2048000  ( 4.2%) 
+edges                13264/256000      53056/1024000  ( 5.2%) 
+LDR worldlights        198/8192        17424/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2718/65536        5436/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1946504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60256/16777216 ( 0.4%) 
+entdata               [variable]       60215/393216   (15.3%) 
+LDR leaf ambient      1408/65536       33792/1572864  ( 2.1%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      619512/4194304  (14.8%) 
+==== Total Win32 BSP file data space used: 3561012 bytes ====
+
+Total triangle count: 7753
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (619512 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 529 texinfos to 270
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 579 portalclusters
+1352 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 400 visible clusters (0.00%)
+Total clusters visible: 96302
+Average clusters visible: 166
+Building PAS...
+Average clusters audible: 374
+visdatasize:60700  compressed from 92640
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+3 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2979 faces
+302125 square feet [43506072.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2979 patches before subdivision
+39215 patches after subdivision
+200 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5902395, max 767
+transfer lists:  45.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(387859, 361820, 178384)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(46077, 41212, 18046)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6592, 5807, 2281)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1092, 969, 344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(204, 184, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0140 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1905/8192        22860/98304    (23.3%) 
+brushsides           12877/65536      103016/524288   (19.6%) 
+planes                2920/65536       58400/1310720  ( 4.5%) 
+vertexes              5594/65536       67128/786432   ( 8.5%) 
+nodes                 1391/65536       44512/2097152  ( 2.1%) 
+texinfos               270/12288       19440/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2979/65536      166824/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1993/65536      111608/3670016  ( 3.0%) 
+leaves                1411/65536       45152/2097152  ( 2.2%) 
+leaffaces             3606/65536        7212/131072   ( 5.5%) 
+leafbrushes           3105/65536        6210/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21723/512000      86892/2048000  ( 4.2%) 
+edges                13305/256000      53220/1024000  ( 5.2%) 
+LDR worldlights        200/8192        17600/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2724/65536        5448/131072   ( 4.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1958920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60700/16777216 ( 0.4%) 
+entdata               [variable]       60702/393216   (15.4%) 
+LDR leaf ambient      1411/65536       33864/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      619512/4194304  (14.8%) 
+==== Total Win32 BSP file data space used: 3576849 bytes ====
+
+Total triangle count: 7793
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\SteamApps\common\Fortress Forever\sdk\materials
+Loading D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (621352 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 529 texinfos to 270
+Reduced 61 texdatas to 51 (1867 bytes to 1468)
+Writing D:\Random Files\Random Map Files\ff_zutalors\ff_zutalors_test.bsp
+1 second elapsed
+
+
+
+8 threads
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+reading d:\random files\random map files\ff_zutalors\ff_zutalors_test.prt
+ 579 portalclusters
+1351 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10WARNING: Cluster portals saw into cluster
+Optimized: 373 visible clusters (0.00%)
+Total clusters visible: 96225
+Average clusters visible: 166
+Building PAS...
+Average clusters audible: 373
+visdatasize:60662  compressed from 92640
+writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file D:\SteamLibrary\steamapps\common\SourceSDK\bin\ep1\bin\lights.rad.
+Loading d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+2985 faces
+302208 square feet [43518036.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+2985 patches before subdivision
+39243 patches after subdivision
+200 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5910479, max 767
+transfer lists:  45.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(388509, 362441, 178704)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(46180, 41305, 18088)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6607, 5820, 2287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1094, 971, 345)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(204, 184, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0172 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  19/1024          912/49152    ( 1.9%) 
+brushes               1905/8192        22860/98304    (23.3%) 
+brushsides           12877/65536      103016/524288   (19.6%) 
+planes                2918/65536       58360/1310720  ( 4.5%) 
+vertexes              5599/65536       67188/786432   ( 8.5%) 
+nodes                 1390/65536       44480/2097152  ( 2.1%) 
+texinfos               270/12288       19440/884736   ( 2.2%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2985/65536      167160/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1994/65536      111664/3670016  ( 3.0%) 
+leaves                1410/65536       45120/2097152  ( 2.2%) 
+leaffaces             3613/65536        7226/131072   ( 5.5%) 
+leafbrushes           3118/65536        6236/131072   ( 4.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            21751/512000      87004/2048000  ( 4.2%) 
+edges                13316/256000      53264/1024000  ( 5.2%) 
+LDR worldlights        200/8192        17600/720896   ( 2.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            187/32768        1870/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2709/65536        5418/131072   ( 4.1%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1959656/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60662/16777216 ( 0.4%) 
+entdata               [variable]       60702/393216   (15.4%) 
+LDR leaf ambient      1410/65536       33840/1572864  ( 2.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       23171/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      621352/4194304  (14.8%) 
+==== Total Win32 BSP file data space used: 3579867 bytes ====
+
+Total triangle count: 7806
+Writing d:\random files\random map files\ff_zutalors\ff_zutalors_test.bsp
+8 seconds elapsed
